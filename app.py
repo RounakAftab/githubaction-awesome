@@ -1,16 +1,18 @@
 # flake8, blackpi
 
-# def sum():
 
-#     a = 5
-#     b = 10
-#     return a + b
-
-
-# sum()
+def sum():
+    a = 5
+    b = 10
+    return a + b
 
 
-def add(a, b):return a + b
+sum()
 
 
-result = add(5 + 10); print(result)
+def add(a, b):
+    return a + b
+
+
+result = add(5 + 10)
+print(result)
