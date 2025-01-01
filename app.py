@@ -10,9 +10,7 @@
 # sum()
 
 
-def add(a, b):
-    return a + b
+def add(a, b):return a + b
 
 
-result = add(5 + 10)
-print(result)
+result = add(5 + 10); print(result)
